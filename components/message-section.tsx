@@ -42,11 +42,11 @@ jo sab kuch worth it bana deti hain.
 Aur kabhi kabhi woh log bhi
 jo zindagi ko thoda sa aur light bana dete hain.
 
-Bas itni si hope hai
+I Hope 
 ki aane wale din tumhe aise moments dein
 jahan tum khud ko thoda sa ruk kar mehsoos karo
 aur socho —
-"haan, life itni bhi buri nahi hai."
+"haan, I'm the best. Mujhe kisi or k opinions ki zarurat nahi hai. I am enough, just the way I am."   
 
 Baaki sab to time sikhata hi rehta hai.
 
