@@ -31,10 +31,6 @@ const BIRTHDAY_MESSAGES = [
   message: `
 Aaj tumhari life ka ek aur saal shuru ho raha hai.
 
-Kabhi kabhi saal ka pata hi nahi chalta.
-Din aate hain, chale jaate hain,
-aur dheere dheere hum bhi badalte rehte hain.
-
 Sach kahun to birthday sirf age badhne ka din nahi hota,
 ye thoda sa ruk kar dekhne ka din bhi hota hai
 ki hum kitna grow kar chuke hain.
