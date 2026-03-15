@@ -57,7 +57,7 @@ export function SurpriseSection() {
         }`}
       >
         <span className="inline-block rounded-full px-4 py-1.5 text-xs font-semibold tracking-widest uppercase mb-4" style={{ border: '1.5px solid #f0c850', color: '#f0c850' }}>
-          Something Special
+            A small note...
         </span>
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-balance" style={{ color: '#f0c850' }}>
           Something I Wanted to Say
@@ -85,7 +85,7 @@ export function SurpriseSection() {
                 className="inline-flex items-center gap-2 rounded-full px-8 py-3.5 text-sm font-bold shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-golden focus-visible:ring-offset-2 focus-visible:ring-offset-dark-surface cursor-pointer"
                 style={{ backgroundColor: '#f0c850', color: '#1a1a2e' }}
               >
-                {"Before U go... \u{1F48C}"}
+              {"Before u go (tap me) \u{1F48C}"}
               </button>
             </div>
           ) : (
