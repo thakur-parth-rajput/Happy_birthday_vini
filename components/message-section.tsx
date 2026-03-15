@@ -11,7 +11,7 @@ const BIRTHDAY_MESSAGES = [
     badge: "A WARM WISH",
     title: "Happy  19th b'day",
     message:
-      "Wishing you a day filled with happiness and a year full of good moments. Bas dua h ki ye naya saal tumhari life me aur zyada sukoon, smiles aur achhe moments laaye. Hmesha Waisi hi rehna — thodi si akad, thoda sa gussa, aur vo  pyari si hansi jo registan  me bhi baarish krwade s",
+      "Wishing you a day filled with happiness and a year full of great moments. Bs dua h ki ye naya saal tumhari life me aur zyada sukoon, smiles aur achhe moments laaye. Tum Hmesha Waisi hi rehna — thodi si akad, thoda sa gussa, aur vo  pyari si hansi  ",
   },
  
   
@@ -26,19 +26,42 @@ const BIRTHDAY_MESSAGES = [
       ]
       ,
   },
-  {
-    badge: "OUR WISHES FOR YOU",
-    title: "A Year Filled With Joy",
-    message: "",
-    wishes: [
-      "Adventures that take your breath away",
-      "Moments of pure joy and laughter",
-      "Success in all your endeavors",
-      "Love and warmth from those around you",
-      "Peace and contentment in your heart",
-      "And dreams that come true beyond your wildest imagination",
-    ],
-  },
+{
+  badge: "MY WISHES FOR YOU",
+  title: "FOR THE YEAR AHEAD",
+  message: `
+Aaj tumhari life ka ek aur saal shuru ho raha hai.
+
+Kabhi kabhi saal ka pata hi nahi chalta.
+Din aate hain, chale jaate hain,
+aur dheere dheere hum bhi badalte rehte hain.
+
+Sach kahun to birthday sirf age badhne ka din nahi hota,
+ye thoda sa ruk kar dekhne ka din bhi hota hai
+ki hum kitna grow kar chuke hain.
+
+Kabhi kabhi life perfect nahi hoti,
+lekin phir bhi usme chhoti chhoti cheezein hoti hain
+jo sab kuch worth it bana deti hain.
+
+Aur kabhi kabhi woh log bhi
+jo zindagi ko thoda sa aur light bana dete hain.
+
+Bas itni si hope hai
+ki aane wale din tumhe aise moments dein
+jahan tum khud ko thoda sa ruk kar mehsoos karo
+aur socho —
+"haan, life itni bhi buri nahi hai."
+
+Baaki sab to time sikhata hi rehta hai.
+
+Just keep being you,
+kyunki kabhi kabhi wahi sabse achhi baat hoti hai.
+
+Happy Birthday, Vini. 🤍
+`,
+  wishes: []
+}
 ]
 
 export function MessageSection() {
@@ -176,9 +199,9 @@ export function MessageSection() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#f0c850' }}>
               {BIRTHDAY_MESSAGES[2].title}
             </h2>
-            <p className="text-foreground/80 text-base md:text-lg mb-6">
-              We wish for you a year filled with:
-            </p>
+           <p className="text-foreground/90 text-base md:text-lg leading-relaxed whitespace-pre-line">
+  {BIRTHDAY_MESSAGES[2].message}
+</p>
             <ul className="space-y-3">
               {BIRTHDAY_MESSAGES[2].wishes?.map((wish, i) => (
                 <li key={i} className="flex items-start gap-3 text-foreground/90 text-base md:text-lg leading-relaxed">

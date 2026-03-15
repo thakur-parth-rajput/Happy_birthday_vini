@@ -56,7 +56,19 @@ export function EndingSection() {
         </h2>
 
         <p className="text-foreground/90 text-base md:text-lg leading-relaxed mb-6">
-          As you embark on another year, remember to embrace every moment and cherish the simple joys. We wish you continued happiness and success in all your endeavors.
+       that’s all this little page had to say.
+
+Nothing big,
+nothing dramatic.
+
+Just a small reminder that
+today is about you.
+
+Aur haan…
+hamesha hansti khelti rehna, jaise hmesha rehti ho.
+Once again I wish u a very
+Happy Birthday, Vini.
+
         </p>
 
         <p className="text-foreground/80 text-base md:text-lg leading-relaxed">

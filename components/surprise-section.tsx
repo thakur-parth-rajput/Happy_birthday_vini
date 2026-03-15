@@ -22,10 +22,9 @@ I’ll just be quietly grateful.
 Grateful you were born,
 and that, for a while, I got to know you.
 
-Some things aren’t meant to stay…
-but they still leave something behind.
-
-  . Happy Birthday, Vini!`
+And if today ever feels a little overwhelming,
+maybe treat yourself to something sweet —
+I remember that always helped the “angry bird.”`
 
 export function SurpriseSection() {
   const [revealed, setRevealed] = useState(false)
