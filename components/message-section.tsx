@@ -11,7 +11,7 @@ const BIRTHDAY_MESSAGES = [
     badge: "A WARM WISH",
     title: "Happy  19th b'day",
     message:
-      "Wishing you a day filled with happiness and a year full of great moments. Bs dua h ki ye naya saal tumhari life me aur zyada sukoon, smiles aur achhe moments laaye. Tum Hmesha Waisi hi rehna — thodi si akad, thoda sa gussa, aur vo  pyari si hansi  ",
+      "Wishing you a day filled with happiness and a year full of great moments. Bs dua h ki ye naya saal tumhari life me aur zyada sukoon, smiles aur achhe moments laaye. Tum Hmesha Waisi hi rehna — thodi si akad, thoda sa gussa, aur vo  pyari si hansi jo kisi ka bhi din bna deti h ",
   },
  
   

@@ -23,7 +23,7 @@ Grateful you were born,
 and that, for a while, I got to know you.
 
 And if today ever feels a little overwhelming,
-maybe treat yourself to something sweet —
+just treat yourself with something sweet 
 I remember that always helped the “angry bird.”`
 
 export function SurpriseSection() {

@@ -7,27 +7,29 @@ export function MusicToggle() {
   const audioRef = useRef<HTMLAudioElement>(null)
 
   const toggleMusic = () => {
-    if (!audioRef.current) return
+  if (!audioRef.current) return
 
-    if (isPlaying) {
-      audioRef.current.pause()
-    } else {
-      audioRef.current.play().catch(() => {
-        // Browser may block autoplay
-      })
-    }
-    setIsPlaying(!isPlaying)
+  if (isPlaying) {
+    audioRef.current.pause()
+  } else {
+    audioRef.current.volume = 0.05   // 👈 यह line add करनी है
+    audioRef.current.play().catch(() => {
+      // Browser may block autoplay
+    })
   }
+
+  setIsPlaying(!isPlaying)
+}
 
   return (
     <>
       {/* Replace the src with your own music file if desired */}
       <audio
-        ref={audioRef}
-        loop
-        preload="none"
-        src="https://cdn.pixabay.com/audio/2024/11/28/audio_1e6c08e625.mp3"
-      />
+  ref={audioRef}
+  loop
+  preload="auto"
+  src="/music/song.mp3"
+/>
       <button
         onClick={toggleMusic}
         className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-12 h-12 rounded-full border-2 shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-golden focus-visible:ring-offset-2 focus-visible:ring-offset-background cursor-pointer"
