@@ -54,22 +54,24 @@ export function EndingSection() {
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-balance" style={{ color: '#f0c850' }}>
           Keep Shining Bright!
         </h2>
+<p className="text-foreground/90 text-base md:text-lg leading-relaxed mb-6">
+  That’s all this little page had to say.<br /><br />
 
-        <p className="text-foreground/90 text-base md:text-lg leading-relaxed mb-6">
-       that’s all this little page had to say.
+  Nothing big,<br />
+  nothing dramatic.<br /><br />
 
-Nothing big,
-nothing dramatic.
+  Just a small reminder that<br />
+  today is about you.<br /><br />
 
-Just a small reminder that
-today is about you.
+  Aur haan…<br />
+  hamesha hansti khelti rehna,<br />
+  jaise hamesha rehti ho.<br /><br />
 
-Aur haan…
-hamesha hansti khelti rehna, jaise hmesha rehti ho.
-Once again I wish u a very
-Happy Birthday, Vini.
-
-        </p>
+  Once again,<br />
+  <span style={{ color: "#f0c850", fontWeight: "600" }}>
+    Happy Birthday, Vini.
+  </span>
+</p>
 
         <p className="text-foreground/80 text-base md:text-lg leading-relaxed">
           Take care and keep smiling :)

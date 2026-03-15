@@ -15,17 +15,16 @@ const BIRTHDAY_MESSAGES = [
   },
  
   
-  {
-    badge: "WHAT MAKES YOU DIFFERENT",
-    title: "Something I Always Noticed ",
-    message:
-      ["Your  Attitude , ",
-        "Your Unapologetic Nature , ",
-        "That quiet stubbornness you carry,  ",
-        "And the fire in you that never lets you bend — that’s something I always admired."
-      ]
-      ,
-  },
+ {
+  badge: "WHAT MAKES YOU DIFFERENT",
+  title: "Something I Always Noticed",
+  message: [
+    "Your attitude.",
+    "Your unapologetic nature.",
+    "That quiet stubbornness you carry.",
+    "And the fire in you that never lets you bend — that’s something I always admired."
+  ],
+},
 {
   badge: "MY WISHES FOR YOU",
   title: "FOR THE YEAR AHEAD",
@@ -161,9 +160,11 @@ export function MessageSection() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#f0c850' }}>
               {BIRTHDAY_MESSAGES[1].title}
             </h2>
-            <p className="text-foreground/90 text-base md:text-lg leading-relaxed">
-              {BIRTHDAY_MESSAGES[1].message}
-            </p>
+           <div className="text-foreground/90 text-base md:text-lg leading-relaxed space-y-2">
+  {(BIRTHDAY_MESSAGES[1].message as string[]).map((line, i) => (
+    <p key={i}>{line}</p>
+  ))}
+</div>
           </div>
         </div>
       </div>
