@@ -8,7 +8,7 @@ import Image from "next/image"
    ======================================== */
 const SURPRISE_MESSAGE = `
 I don’t know if I’m allowed to miss you anymore,
-but today feels a little different.
+but today feels a little different. 
 
 Another year for you,
 and I still remember the way you found happiness in the smallest things.
@@ -97,9 +97,9 @@ export function SurpriseSection() {
                     <polyline points="22,6 12,13 2,6" />
                   </svg>
                 </div>
-                <p className="text-foreground leading-relaxed text-lg font-medium">
-                  {SURPRISE_MESSAGE}
-                </p>
+                <p className="text-foreground leading-relaxed text-lg font-medium whitespace-pre-line">
+  {SURPRISE_MESSAGE}
+</p>
                 <div className="mt-6 flex justify-center gap-2">
                   {[0, 1, 2].map((i) => (
                     <div
